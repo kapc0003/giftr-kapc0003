@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.kapc0003.giftr" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>giftr-kapc0003</name>
+    <description>
+        Giftr Midterm for Mad9022
+    </description>
+    <author email="kapc0003@algonquinlive.com" href="http://kapc0003.edumedia.ca">
+        Alison Kapcala
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <splash density="port-mdpi" src="res/screens/screens-mdpi-portrait.png" />
+    <splash density="port-hdpi" src="res/screens/screens-hdpi-portrait.png" />
+    <splash density="port-xhdpi" src="res/screens/screens-xhdpi-portrait.png" />
+    <splash density="port-xxhdpi" src="res/screens/screens-xxhdpi-portrait.png" />
+    <splash density="port-xxxhdpi" src="res/screens/screens-xxxhdpi-portrait.png" />
+    <splash density="land-mdpi" src="res/screens/screens-mdpi-landscape.png" />
+    <splash density="land-hdpi" src="res/screens/screens-hdpi-landscape.png" />
+    <splash density="land-xhdpi" src="res/screens/screens-xhdpi-landscape.png" />
+    <splash density="land-xxhdpi" src="res/screens/screens-xxhdpi-landscape.png" />
+    <splash density="land-xxxhdpi" src="res/screens/screens-xxxhdpi-landscape.png" />
+    <icon density="mdpi" src="res/icons/icon-48-mdpi.png" />
+    <icon density="hdpi" src="res/icons/icon-72-hdpi.png" />
+    <icon density="xhdpi" src="res/icons/icon-96-xhdpi.png" />
+    <icon density="xxhdpi" src="res/icons/icon-144-xxhdpi.png" />
+    <icon density="xxxhdpi" src="res/icons/icon-192-xxxhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="5000" />
+</widget>
